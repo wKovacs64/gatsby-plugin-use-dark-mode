@@ -1,0 +1,4 @@
+gatsby-ssr.js
+!src/gatsby-ssr.js
+theme-hydration-script-tag.js
+!src/theme-hydration-script-tag.js

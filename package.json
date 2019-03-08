@@ -1,0 +1,83 @@
+{
+  "name": "gatsby-plugin-use-dark-mode",
+  "version": "0.0.0-semantically-released",
+  "description": "Gatsby plugin to prevent a flash of default styles when using the use-dark-mode hook",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "use-dark-mode",
+    "dark-mode"
+  ],
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "gatsby-ssr.js",
+    "theme-hydration-script-tag.js"
+  ],
+  "homepage": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wKovacs64/gatsby-plugin-use-dark-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/issues"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "clean": "del-cli gatsby-ssr.js theme-hydration-script-tag.js",
+    "cm": "git-cz",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,md,yml}\"",
+    "lint": "eslint .",
+    "prebuild": "npm run --silent clean",
+    "prepare": "cross-env NODE_ENV=production npm run --silent build",
+    "prepublishOnly": "npm run --silent validate",
+    "validate": "npm-run-all --silent --parallel lint build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "terser": "^3.16.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
+    "@wkovacs64/eslint-config-react": "2.1.0",
+    "babel-preset-gatsby-package": "0.1.3",
+    "commitizen": "3.0.7",
+    "cross-env": "5.2.0",
+    "cz-conventional-changelog": "2.1.0",
+    "del-cli": "1.1.0",
+    "eslint": "5.15.1",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jest": "22.3.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-hooks": "1.5.0",
+    "husky": "1.3.1",
+    "lint-staged": "8.1.5",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.16.4",
+    "semantic-release": "15.13.3"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "use-dark-mode": "^2.3.1"
+  }
+}

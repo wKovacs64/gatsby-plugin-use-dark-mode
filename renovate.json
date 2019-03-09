@@ -1,0 +1,11 @@
+{
+  "extends": ["config:js-lib", ":semanticCommits"],
+  "commitMessageTopic": "{{depName}}",
+  "automergeType": "branch",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0
+}

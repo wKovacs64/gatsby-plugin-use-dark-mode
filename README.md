@@ -17,9 +17,12 @@ yarn add gatsby-plugin-use-dark-mode use-dark-mode
 
 Add the plugin to your `gatsby-config.js`.
 
+<!-- prettier-ignore -->
 ```js
 module.exports = {
-  plugins: ['gatsby-plugin-use-dark-mode'],
+  plugins: [
+    'gatsby-plugin-use-dark-mode',
+  ],
 };
 ```
 

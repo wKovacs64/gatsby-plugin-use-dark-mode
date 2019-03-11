@@ -7,11 +7,9 @@ import Terser from 'terser';
 const generateNoFlashScript = ({
   classNameDark = 'dark-mode',
   classNameLight = 'light-mode',
+  storageKey = 'darkMode',
 }) => `
-  (function(classNameDark, classNameLight) {
-    // Change these if you use something different in your hook.
-    var storageKey = 'darkMode';
-
+  (function(classNameDark, classNameLight, storageKey) {
     function setClassOnDocumentBody(darkMode) {
       document.body.classList.add(darkMode ? classNameDark : classNameLight);
       document.body.classList.remove(darkMode ? classNameLight : classNameDark);
@@ -42,13 +40,14 @@ const generateNoFlashScript = ({
       var isDarkMode = document.body.classList.contains(classNameDark);
       localStorage.setItem(storageKey, JSON.stringify(isDarkMode));
     }
-  })('${classNameDark}', '${classNameLight}');
+  })('${classNameDark}', '${classNameLight}', '${storageKey}');
 `;
 
-const ThemeHydrationScriptTag = ({ classNameDark, classNameLight, minify }) => {
+const ThemeHydrationScriptTag = ({ classNameDark, classNameLight, storageKey, minify }) => {
   const noFlashScript = generateNoFlashScript({
     classNameDark,
     classNameLight,
+    storageKey,
   });
 
   const finalNoFlashScript = minify
@@ -62,12 +61,14 @@ const ThemeHydrationScriptTag = ({ classNameDark, classNameLight, minify }) => {
 ThemeHydrationScriptTag.propTypes = {
   classNameDark: PropTypes.string,
   classNameLight: PropTypes.string,
+  storageKey: PropTypes.string,
   minify: PropTypes.bool,
 };
 
 ThemeHydrationScriptTag.defaultProps = {
   classNameDark: undefined,
   classNameLight: undefined,
+  storageKey: undefined,
   minify: true,
 };
 

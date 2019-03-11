@@ -30,9 +30,9 @@ Follow the [`use-dark-mode`][udm] documentation for further instructions.
 
 ### Advanced Configuration
 
-If you would like to specify the class names used (which you will also be
-passing to [`useDarkMode`][udm-parameters]) or skip the script minification
-process, you may do so through plugin options:
+If you would like to change the class names that are applied, specify the
+storage key, or skip the script minification process, you may do so through
+plugin options:
 
 ```js
 // gatsby-config.js
@@ -43,12 +43,16 @@ module.exports = {
       options: {
         classNameDark: 'dark-mode',
         classNameLight: 'light-mode',
+        storageKey: 'darkMode',
         minify: true,
       },
     },
   ],
 };
 ```
+
+> Note: You will also need to pass the corresponding [options to
+> `useDarkMode`][udm-parameters].
 
 ## Limitations
 

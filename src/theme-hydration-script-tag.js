@@ -5,9 +5,9 @@ import Terser from 'terser';
 // Adapted from:
 // https://github.com/donavon/use-dark-mode/blob/develop/noflash.js.txt
 const generateNoFlashScript = ({
-  classNameDark = 'dark-mode',
-  classNameLight = 'light-mode',
-  storageKey = 'darkMode',
+  classNameDark,
+  classNameLight,
+  storageKey,
 }) => `
   (function(classNameDark, classNameLight, storageKey) {
     function setClassOnDocumentBody(darkMode) {
@@ -66,9 +66,9 @@ ThemeHydrationScriptTag.propTypes = {
 };
 
 ThemeHydrationScriptTag.defaultProps = {
-  classNameDark: undefined,
-  classNameLight: undefined,
-  storageKey: undefined,
+  classNameDark: 'dark-mode',
+  classNameLight: 'light-mode',
+  storageKey: 'darkMode',
   minify: true,
 };
 

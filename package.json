@@ -56,7 +56,7 @@
     "@babel/core": "7.4.5",
     "@commitlint/cli": "8.0.0",
     "@commitlint/config-conventional": "8.0.0",
-    "@wkovacs64/eslint-config-react": "2.2.0",
+    "@wkovacs64/eslint-config-react": "2.2.1",
     "babel-preset-gatsby-package": "0.1.4",
     "commitizen": "3.1.1",
     "cross-env": "5.2.0",

@@ -57,7 +57,7 @@
     "@commitlint/cli": "8.0.0",
     "@commitlint/config-conventional": "8.0.0",
     "@wkovacs64/eslint-config-react": "2.2.1",
-    "babel-preset-gatsby-package": "0.1.4",
+    "babel-preset-gatsby-package": "0.2.0",
     "commitizen": "3.1.1",
     "cross-env": "5.2.0",
     "cz-conventional-changelog": "2.1.0",

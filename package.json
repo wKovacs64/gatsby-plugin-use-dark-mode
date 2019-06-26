@@ -22,7 +22,7 @@
   "homepage": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wKovacs64/gatsby-plugin-use-dark-mode.git"
+    "url": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode.git"
   },
   "bugs": {
     "url": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/issues"

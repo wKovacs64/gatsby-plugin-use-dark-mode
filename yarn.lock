@@ -1129,10 +1129,10 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
   integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
 
-"@wkovacs64/eslint-config-react@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@wkovacs64/eslint-config-react/-/eslint-config-react-2.2.1.tgz#3ca236ef1f66c7110c8672476505e0e169c2d4d0"
-  integrity sha512-/xu34PoSVy0/q2NYYOTY9FYwJ9/Pa8K2pBcC/MlALsAY0BTvZl1amtRTnKRazbMHj7OLCBBSI4gaDX9/+/5D8Q==
+"@wkovacs64/eslint-config-react@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@wkovacs64/eslint-config-react/-/eslint-config-react-2.2.2.tgz#ecbe21b5d9bfbabfc225bc9417cb8ea09be324fc"
+  integrity sha512-F2ROx85dJa3VCLX0R0TLE8tgcXbGMhXs61r4m423RedcmB08xaJBWxL6+C1BUOBBkTsYr4h+VnfXyFn31FmrLw==
   dependencies:
     "@wkovacs64/eslint-config" "^5.0.0"
     eslint-config-airbnb "^17.1.0"

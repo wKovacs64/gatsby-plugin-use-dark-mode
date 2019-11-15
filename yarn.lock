@@ -1825,24 +1825,12 @@ babel-eslint@^10.0.3:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
-babel-plugin-dynamic-import-node@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-1.2.0.tgz#f91631e703e0595e47d4beafbb088576c87fbeee"
-  integrity sha512-yeDwKaLgGdTpXL7RgGt5r6T4LmnTza/hUn5Ul8uZSGGMtEjYo13Nxai7SQaGCTEzUtg9Zq9qJn0EjEr7SeSlTQ==
-  dependencies:
-    babel-plugin-syntax-dynamic-import "^6.18.0"
-
 babel-plugin-dynamic-import-node@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.0.tgz#f00f507bdaa3c3e3ff6e7e5e98d90a7acab96f7f"
   integrity sha512-o6qFkpeQEBxcqt0XYlWzAVxNCSCZdUgcR8IRlhD/8DylxjjO4foPcvTW0GGKa/cVt3rvxZ7o5ippJ+/0nvLhlQ==
   dependencies:
     object.assign "^4.1.0"
-
-babel-plugin-syntax-dynamic-import@^6.18.0:
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz#8d6a26229c83745a9982a441051572caa179b1da"
-  integrity sha1-jWomIpyDdFqZgqRBBRVyyqF5sdo=
 
 babel-polyfill@6.26.0:
   version "6.26.0"
@@ -1853,10 +1841,10 @@ babel-polyfill@6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-gatsby-package@0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.10.tgz#667a0f1df7075d4fcad2b0f61f11251591db2003"
-  integrity sha512-yjejicXNu8liF87zg3OtL9FO3p+//rKZYtr94pZakQBfKbuvCstDEl6bk6Hai4RQJC7vb/ZJwzw73uwQNzQGzg==
+babel-preset-gatsby-package@0.2.11:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.11.tgz#3a8e193d7eeb5311a98e8e35f1f120849f2804d5"
+  integrity sha512-NEvQZWTTSp8mMIPX4C7SpAQZgI0NzR4nFccJgNCNbU2Pw3TIyVamboLQPmLJIZJAEGTURqomqPgKFAHR7nOMAw==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.7.0"
     "@babel/plugin-proposal-optional-chaining" "^7.6.0"
@@ -1865,7 +1853,7 @@ babel-preset-gatsby-package@0.2.10:
     "@babel/preset-env" "^7.7.1"
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.7.0"
-    babel-plugin-dynamic-import-node "^1.2.0"
+    babel-plugin-dynamic-import-node "^2.3.0"
     core-js "^2.6.10"
 
 babel-runtime@^6.23.0, babel-runtime@^6.26.0:

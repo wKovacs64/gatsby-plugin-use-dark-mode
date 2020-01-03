@@ -54,8 +54,8 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.7.7",
-    "@commitlint/cli": "8.3.3",
-    "@commitlint/config-conventional": "8.3.3",
+    "@commitlint/cli": "8.3.4",
+    "@commitlint/config-conventional": "8.3.4",
     "babel-preset-gatsby-package": "0.2.14",
     "commitizen": "4.0.3",
     "cross-env": "6.0.3",

@@ -1873,10 +1873,10 @@ babel-polyfill@6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-gatsby-package@0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.16.tgz#521fdfdcc39277c21a2ddd77595afd0bdff482e0"
-  integrity sha512-mXO1Pk4AZsqt//XgI5ONKo29BAntDE2b5NZ2O/rFjZn/MzwjfhwOz4oz+D4wrP1gCe29ICWWab4vsUXuwPaKUQ==
+babel-preset-gatsby-package@0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.17.tgz#84a6250291760a16275153a583634f1e4ddf931e"
+  integrity sha512-4dOR5dL+vncVQwxzXCwBxApH+IynUqGc/vhv7pVyWB+8H9kBS6kbR5BHFn0+jkT2n07oGZCtEQJ0MpNZ/Rdiew==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.7.4"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.7.4"

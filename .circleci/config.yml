@@ -1,28 +1,27 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@1.1.6
+  node: circleci/node@2.0.1
 
 defaults: &defaults
   executor:
     name: node/default
-    tag: lts
+    tag: '12.16.1'
 
 jobs:
   test:
     <<: *defaults
     steps:
       - checkout
-      - node/install-yarn
-      - node/with-cache:
-          steps:
-            - run: yarn install --frozen-lockfile
-            - run: yarn validate
-            - persist_to_workspace:
-                root: ~/
-                paths:
-                  - .cache
-                  - project
+      - node/install-packages:
+          cache-key: yarn.lock
+          pkg-manager: yarn
+      - run: yarn validate
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - .cache
+            - project
   release:
     <<: *defaults
     steps:

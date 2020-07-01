@@ -57,7 +57,7 @@
     "@commitlint/cli": "9.0.1",
     "@commitlint/config-conventional": "9.0.1",
     "@wkovacs64/prettier-config": "3.0.0",
-    "babel-preset-gatsby-package": "0.4.6",
+    "babel-preset-gatsby-package": "0.5.0",
     "commitizen": "4.1.2",
     "cross-env": "7.0.2",
     "cz-conventional-changelog": "3.2.0",

@@ -43,7 +43,12 @@ const generateNoFlashScript = ({
   })('${classNameDark}', '${classNameLight}', '${storageKey}');
 `;
 
-const ThemeHydrationScriptTag = ({ classNameDark, classNameLight, storageKey, minify }) => {
+const ThemeHydrationScriptTag = ({
+  classNameDark,
+  classNameLight,
+  storageKey,
+  minify,
+}) => {
   const noFlashScript = generateNoFlashScript({
     classNameDark,
     classNameLight,

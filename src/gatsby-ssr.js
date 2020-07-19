@@ -1,7 +1,7 @@
 import React from 'react';
 import ThemeHydrationScriptTag from './theme-hydration-script-tag';
 
-export const onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
+export function onRenderBody({ setPreBodyComponents }, pluginOptions) {
   // eslint-disable-next-line no-param-reassign
   delete pluginOptions.plugins;
 
@@ -11,4 +11,4 @@ export const onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   setPreBodyComponents([
     <ThemeHydrationScriptTag key="gatsby-plugin-use-dark-mode" {...props} />,
   ]);
-};
+}

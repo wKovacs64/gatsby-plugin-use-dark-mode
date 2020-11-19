@@ -8,7 +8,7 @@ exports.pluginOptionsSchema = ({ Joi }) => {
       .description('CSS class name applied in light mode'),
     storageKey: Joi.string()
       .default('darkMode')
-      .description('localStorage key used to preserve the mode'),
+      .description('localStorage key used to persist mode'),
     minify: Joi.boolean()
       .default(true)
       .description('toggle minification of the injected script'),

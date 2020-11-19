@@ -1,6 +1,5 @@
 gatsby-node.js
-!src/gatsby-node.js
 gatsby-ssr.js
-!src/gatsby-ssr.js
 theme-hydration-script-tag.js
-!src/theme-hydration-script-tag.js
+!__tests__/**
+!src/**

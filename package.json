@@ -76,7 +76,7 @@
     "prettier": "2.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "semantic-release": "17.2.4"
+    "semantic-release": "17.3.0"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0",

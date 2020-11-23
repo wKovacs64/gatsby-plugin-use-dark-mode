@@ -8154,10 +8154,10 @@ gatsby-telemetry@^1.5.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby@2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.27.0.tgz#e27587c315c0fb7da0aaf329ad777fbedeed8a26"
-  integrity sha512-Xwr4nGZjRwYUu/nk1S7IJMMDF/xjJViRjos37CcBTLdMcVPsB4FhP0HPr/EjUytUSQ1599mbKOkz4UrWkOC1ng==
+gatsby@2.27.1:
+  version "2.27.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.27.1.tgz#f3b781db8949b47ad6a4c0dedd839195e7e24a4e"
+  integrity sha512-KUBLQ+M3fERq69SxoFTTI/eUMQeMYUredI52mgqsMfvi9T828KQ8s9E9hhG/ML5aTbZ6eGvfi8aOqCao0UZQVw==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.12.3"

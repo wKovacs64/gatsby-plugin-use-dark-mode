@@ -62,7 +62,7 @@
     "@wkovacs64/prettier-config": "3.0.0",
     "babel-preset-gatsby-package": "0.7.0",
     "commitizen": "4.2.2",
-    "cross-env": "7.0.2",
+    "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "3.0.1",
     "eslint": "7.14.0",

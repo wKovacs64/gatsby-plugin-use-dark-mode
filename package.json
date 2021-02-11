@@ -58,8 +58,8 @@
     "terser": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.13",
-    "@babel/core": "7.12.13",
+    "@babel/cli": "7.12.16",
+    "@babel/core": "7.12.16",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@wkovacs64/prettier-config": "3.0.0",

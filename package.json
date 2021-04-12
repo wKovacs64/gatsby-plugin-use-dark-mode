@@ -67,7 +67,7 @@
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "3.0.1",
     "eslint": "7.24.0",
-    "eslint-plugin-wkovacs64": "12.0.0",
+    "eslint-plugin-wkovacs64": "13.0.0",
     "gatsby": "3.2.1",
     "gatsby-plugin-utils": "1.2.0",
     "husky": "6.0.0",

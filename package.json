@@ -56,7 +56,7 @@
     "terser": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.15.4",
+    "@babel/cli": "7.15.7",
     "@babel/core": "7.15.5",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",

@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.15.7",
-    "@babel/core": "7.15.5",
+    "@babel/core": "7.15.8",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@wkovacs64/prettier-config": "3.0.0",

@@ -58,7 +58,7 @@
   "devDependencies": {
     "@babel/cli": "7.16.8",
     "@babel/core": "7.16.7",
-    "@commitlint/cli": "16.0.2",
+    "@commitlint/cli": "16.0.3",
     "@commitlint/config-conventional": "16.0.0",
     "@wkovacs64/prettier-config": "3.0.0",
     "babel-preset-gatsby-package": "2.5.0",

@@ -70,7 +70,7 @@
     "eslint-plugin-jest": "26.0.0",
     "eslint-plugin-wkovacs64": "13.10.0",
     "gatsby": "4.6.0",
-    "gatsby-plugin-utils": "2.5.0",
+    "gatsby-plugin-utils": "3.0.0",
     "husky": "7.0.4",
     "jest": "27.4.7",
     "lint-staged": "12.3.1",

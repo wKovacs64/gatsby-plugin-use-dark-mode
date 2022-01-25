@@ -19,7 +19,7 @@ describe('plugin options schema', () => {
     expect(errors).toEqual([]);
   });
 
-  it('rejects extra options', async () => {
+  it('warns about extra options', async () => {
     const options = {
       classNameDark: 'dark',
       classNameLight: 'light',
@@ -28,13 +28,14 @@ describe('plugin options schema', () => {
       tinyOrPickle: 'pickle',
     };
 
-    const { isValid, errors } = await testPluginOptionsSchema(
+    const { isValid, hasWarnings, warnings } = await testPluginOptionsSchema(
       pluginOptionsSchema,
       options,
     );
 
-    expect(isValid).toBe(false);
-    expect(errors).toMatchInlineSnapshot(`
+    expect(isValid).toBe(true);
+    expect(hasWarnings).toBe(true);
+    expect(warnings).toMatchInlineSnapshot(`
       Array [
         "\\"tinyOrPickle\\" is not allowed",
       ]

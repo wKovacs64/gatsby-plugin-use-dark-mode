@@ -3847,13 +3847,13 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.0"
 
-babel-plugin-remove-graphql-queries@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.8.1.tgz#29612e464ae8d4d1256cf0b332e4757966eca9ac"
-  integrity sha512-KqMTbXBwcbIGGVHlhtOU1vgaL4jFkuT0B/ZcWPmjUCpdxnZBnshmamYtE3oV1WovArJVjoFtaKxbG8QsStdLnA==
+babel-plugin-remove-graphql-queries@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.8.2.tgz#77fd881d50786194a3532b9c1bc771472d8a5321"
+  integrity sha512-mFsBObsa79VDmtcjWXtc3TCIdjWT+xd8WkMwd/RFVf8TVHIZ4BkU9G+jQQer8oCZVYdQerViQGevhvue3Wc9kQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.8.1"
+    gatsby-core-utils "^3.8.2"
 
 babel-plugin-transform-react-remove-prop-types@^0.4.24:
   version "0.4.24"
@@ -3895,10 +3895,10 @@ babel-preset-gatsby-package@2.8.0:
     babel-plugin-dynamic-import-node "^2.3.3"
     core-js "^3.17.2"
 
-babel-preset-gatsby@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-2.8.1.tgz#da86c781652c52c3ca598a759c1d79371fbb82fc"
-  integrity sha512-RHjEIPPWnlx2x8NrC6BOifIiT2JgtDh7KvSz4reNwMri1ns0cNt6OzYPQhKAsXIzfQdYZBRAdRNNJsQu5BxhJg==
+babel-preset-gatsby@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-2.8.2.tgz#48ec653382de0f5740fd3160ddaf1db6f974d7ab"
+  integrity sha512-LvcyeX+Uo9n7Kk+0dauIPlj9FgvWt7tBEI7EXR9paz2ZhoqLVchQCyWtDcv+UnufJw9iFwZRZrBI02F5gkM4SQ==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.14.0"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -3913,7 +3913,7 @@ babel-preset-gatsby@^2.8.1:
     babel-plugin-dynamic-import-node "^2.3.3"
     babel-plugin-macros "^2.8.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    gatsby-core-utils "^3.8.1"
+    gatsby-core-utils "^3.8.2"
     gatsby-legacy-polyfills "^2.8.0"
 
 babel-preset-jest@^27.5.1:
@@ -6849,10 +6849,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.8.1.tgz#e9e45ff595c5d1f5a0700f9f99fa79f9b19be775"
-  integrity sha512-F72TiIdc767JauncyNgX7JBvV3AZwuEoAriwvJQClPvTB1RXQXmgrDH5Wvv5eeqo8KDCu+6A8veQmqcOn/IoPg==
+gatsby-cli@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.8.2.tgz#fb2e7d4cae5df5b4adb35f6011db3db83391869e"
+  integrity sha512-JS2MxBjKa4VOUeGL5N0IEEc1p9H4jkxiFZbYHbk4/74ozIJ3TBztEi+9fjGNWtNtnKdCmhn2ga8Rar9scykv5A==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -6874,8 +6874,8 @@ gatsby-cli@^4.8.1:
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.8.1"
-    gatsby-telemetry "^3.8.1"
+    gatsby-core-utils "^3.8.2"
+    gatsby-telemetry "^3.8.2"
     hosted-git-info "^3.0.8"
     is-valid-path "^0.1.1"
     joi "^17.4.2"
@@ -6899,10 +6899,10 @@ gatsby-cli@^4.8.1:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.8.1.tgz#52ffe98966ca2f7f013f62fc0a67242cbfb38f6e"
-  integrity sha512-VuIRLVcgxi0leKT1fZvoNhjHn2DKIHdm8f0EqtDwIxeIVZLgtxBksVikZoAqRPhsSExC0YajGFJVBaV9fPADTg==
+gatsby-core-utils@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.8.2.tgz#9c2869f93a740d20536b1e92c8020efd85d43e5f"
+  integrity sha512-UwANr9yd8ayLinPDoRbU/rRgoOBOS715qe2LYCxq6hAtRabHWTEM8Vj0wh7LmyVGexx8MFgvp2NKikG2TZ5pzQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     ci-info "2.0.0"
@@ -6935,51 +6935,51 @@ gatsby-legacy-polyfills@^2.8.0:
     "@babel/runtime" "^7.15.4"
     core-js-compat "3.9.0"
 
-gatsby-link@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-4.8.1.tgz#6acae627dabfc7c3add200022e283bc9d16f3886"
-  integrity sha512-SqnHlzwaw5leHB9LXCt4hOHh8aILp8xajqtZUsyjSP2TcPmX7dL24jYTPGlLr3QQ4z5mtqur6DigKtousXRKZw==
+gatsby-link@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-4.8.2.tgz#36775e5a2c9e1d7fd972856bafb278c399a15854"
+  integrity sha512-V7BqDB1xrBu14J4oi6p54d0JAFHszXpg0Tl89iJ5DMvEoQX4Bjeq4eEsyhZlHQpA3D1jgLBPKhvhRmR357ePtQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@types/reach__router" "^1.3.10"
-    gatsby-page-utils "^2.8.1"
+    gatsby-page-utils "^2.8.2"
     prop-types "^15.7.2"
 
-gatsby-page-utils@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.8.1.tgz#fd2cb83212dd6db67e57ac41c586b7252ae2bbe9"
-  integrity sha512-namuqulIjGjNnazR52BJwLDyyJ219pZCnNUB8qCOxns1mB3sGUAheEISnNwUZPgxj/dL1GQR19YtlK6jqPkEyA==
+gatsby-page-utils@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.8.2.tgz#2a19f162ef6373741977e41b8970e58e361828aa"
+  integrity sha512-HTcWvgSaBYfdimZtwGi1NPYG3w9muISzoHXpbFq7OME73kSvTU83ZiKE7U3x23uHEKlRJQR9nWivWjgg3IIhSg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     bluebird "^3.7.2"
     chokidar "^3.5.2"
     fs-exists-cached "^1.0.0"
-    gatsby-core-utils "^3.8.1"
+    gatsby-core-utils "^3.8.2"
     glob "^7.2.0"
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-page-creator@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.8.1.tgz#373f9535b79b8e360456605134fb49b0ec643231"
-  integrity sha512-4g3fNQmlhxV/vqsXbYW1gKuOi960CcqoCOGfcesh3oThHQ5IiT0xJX9YtStU+Q7M7QvjUM1ZcTwBQzSKD4mTPw==
+gatsby-plugin-page-creator@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.8.2.tgz#14fe781a9651c89a4314f473ce19f7d179825c17"
+  integrity sha512-rylV/GkZekOlsthmRv2qtnhfQy6Q01EEGEvFs1q/UPqGqX8zYXBeHOe9br2An6HpkUIobCXazdqkKqqLyM6xLQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@babel/traverse" "^7.15.4"
     "@sindresorhus/slugify" "^1.1.2"
     chokidar "^3.5.2"
     fs-exists-cached "^1.0.0"
-    gatsby-core-utils "^3.8.1"
-    gatsby-page-utils "^2.8.1"
+    gatsby-core-utils "^3.8.2"
+    gatsby-page-utils "^2.8.2"
     gatsby-plugin-utils "^3.2.0"
-    gatsby-telemetry "^3.8.1"
+    gatsby-telemetry "^3.8.2"
     globby "^11.0.4"
     lodash "^4.17.21"
 
-gatsby-plugin-typescript@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.8.1.tgz#f79269dbbfae61c5fa69594cca1ebbb1566020ba"
-  integrity sha512-8H70v1qT89WNWVsGG6mY8V8J5K45ghOLPJiN5Wp6Gcy6rylVmXiU2rbSgDWItW4/XJiew14VVfM58BtjDwathg==
+gatsby-plugin-typescript@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.8.2.tgz#e1654640a54428684c00421af8bd3f696cd87878"
+  integrity sha512-vIrh9ARFxOXkHcm28+XSRa72MImjPAIKOC6JevLGBbDmQLIt+Ny5k8ELWEJOv4kJTV1JyhJrO4eZGyE4Gt5xGg==
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -6987,7 +6987,7 @@ gatsby-plugin-typescript@^4.8.1:
     "@babel/plugin-proposal-optional-chaining" "^7.14.5"
     "@babel/preset-typescript" "^7.15.0"
     "@babel/runtime" "^7.15.4"
-    babel-plugin-remove-graphql-queries "^4.8.1"
+    babel-plugin-remove-graphql-queries "^4.8.2"
 
 gatsby-plugin-utils@3.2.0, gatsby-plugin-utils@^3.2.0:
   version "3.2.0"
@@ -7013,10 +7013,10 @@ gatsby-sharp@^0.2.0:
     "@types/sharp" "^0.29.5"
     sharp "^0.30.1"
 
-gatsby-telemetry@^3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.8.1.tgz#5a3addd49be7e28a401c356edc539e3b7534c01c"
-  integrity sha512-UETSYeLIikAiyuNmoPx7r9ERZ/aXv8sZGv2NdQDR/Ylcluf6G24NnhlFSMooajcdQX+8euJtcG+ReZK7WMYG7g==
+gatsby-telemetry@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.8.2.tgz#c72b82686b1449e19df1514b41a2457986aa08a3"
+  integrity sha512-jYTO1YmFeA47eqZN9+7iL8Ol219DMxSJJ5G4EaMOwUjmkb9GIznzRIx9vVoSY0BRjrfJptpMBXUYCClNnjYsew==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.15.4"
@@ -7026,7 +7026,7 @@ gatsby-telemetry@^3.8.1:
     boxen "^4.2.0"
     configstore "^5.0.1"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.8.1"
+    gatsby-core-utils "^3.8.2"
     git-up "^4.0.5"
     is-docker "^2.2.1"
     lodash "^4.17.21"
@@ -7040,10 +7040,10 @@ gatsby-worker@^1.8.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.8.1.tgz#abc123585753853586e4c92e1bfb4a0f468fd111"
-  integrity sha512-xV+LROn1lwSHgHXMbHjdX/r3bzvFBkNSX8gYXg+nvnmoBgVQnLlCX823OiOSJpVYPrJj0u8qg14hLJd+P2Cong==
+gatsby@4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.8.2.tgz#8b08802f547d065f7f56e39fb23bb19ce31a55f5"
+  integrity sha512-quYlb50BnkXQFrEOnDxYkEPLxNHv4TXXFMLW4MCbmfJMPzArSkolayodTChG2fCadosPVHgxX+b94c6sy3wh0w==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -7069,8 +7069,8 @@ gatsby@4.8.1:
     babel-plugin-add-module-exports "^1.0.4"
     babel-plugin-dynamic-import-node "^2.3.3"
     babel-plugin-lodash "^3.3.4"
-    babel-plugin-remove-graphql-queries "^4.8.1"
-    babel-preset-gatsby "^2.8.1"
+    babel-plugin-remove-graphql-queries "^4.8.2"
+    babel-preset-gatsby "^2.8.2"
     better-opn "^2.1.1"
     bluebird "^3.7.2"
     body-parser "^1.19.0"
@@ -7113,17 +7113,17 @@ gatsby@4.8.1:
     find-cache-dir "^3.3.2"
     fs-exists-cached "1.0.0"
     fs-extra "^10.0.0"
-    gatsby-cli "^4.8.1"
-    gatsby-core-utils "^3.8.1"
+    gatsby-cli "^4.8.2"
+    gatsby-core-utils "^3.8.2"
     gatsby-graphiql-explorer "^2.8.0"
     gatsby-legacy-polyfills "^2.8.0"
-    gatsby-link "^4.8.1"
-    gatsby-page-utils "^2.8.1"
-    gatsby-plugin-page-creator "^4.8.1"
-    gatsby-plugin-typescript "^4.8.1"
+    gatsby-link "^4.8.2"
+    gatsby-page-utils "^2.8.2"
+    gatsby-plugin-page-creator "^4.8.2"
+    gatsby-plugin-typescript "^4.8.2"
     gatsby-plugin-utils "^3.2.0"
     gatsby-react-router-scroll "^5.8.0"
-    gatsby-telemetry "^3.8.1"
+    gatsby-telemetry "^3.8.2"
     gatsby-worker "^1.8.0"
     glob "^7.2.0"
     got "^11.8.2"

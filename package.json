@@ -86,6 +86,6 @@
     "use-dark-mode": "^2.3.1"
   },
   "resolutions": {
-    "eslint-plugin-react-hooks": "4.3.0"
+    "eslint-plugin-react-hooks": "4.4.0"
   }
 }

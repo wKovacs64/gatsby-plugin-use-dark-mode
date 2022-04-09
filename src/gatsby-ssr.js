@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import ThemeHydrationScriptTag from './theme-hydration-script-tag';
 
 export function onRenderBody({ setPreBodyComponents }, pluginOptions) {

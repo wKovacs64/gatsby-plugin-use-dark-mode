@@ -36,7 +36,7 @@ describe('plugin options schema', () => {
     expect(isValid).toBe(true);
     expect(hasWarnings).toBe(true);
     expect(warnings).toMatchInlineSnapshot(`
-      Array [
+      [
         "\\"tinyOrPickle\\" is not allowed",
       ]
     `);
@@ -57,7 +57,7 @@ describe('plugin options schema', () => {
 
     expect(isValid).toBe(false);
     expect(errors).toMatchInlineSnapshot(`
-      Array [
+      [
         "\\"classNameDark\\" must be a string",
         "\\"classNameLight\\" must be a string",
         "\\"storageKey\\" must be a string",

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import Terser from 'terser';
+import esbuild from 'esbuild';
 
 // Adapted from:
 // https://github.com/donavon/use-dark-mode/blob/develop/noflash.js.txt
@@ -54,7 +54,13 @@ function ThemeHydrationScriptTag({
   });
 
   const finalNoFlashScript = minify
-    ? Terser.minify(noFlashScript).code || ''
+    ? esbuild
+        .transformSync(noFlashScript, {
+          minifyWhitespace: true,
+          minifyIdentifiers: true,
+          minifySyntax: false,
+        })
+        .code.trim()
     : noFlashScript;
 
   // eslint-disable-next-line react/no-danger

@@ -52,8 +52,8 @@
     "access": "public"
   },
   "dependencies": {
-    "esbuild": "^0.14.34",
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "terser": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.17.6",

@@ -11,6 +11,11 @@
       "packageNames": ["eslint"],
       "updateTypes": ["major"],
       "enabled": false
+    },
+    {
+      "packageNames": ["terser"],
+      "updateTypes": ["major"],
+      "enabled": false
     }
   ],
   "prConcurrentLimit": 0,

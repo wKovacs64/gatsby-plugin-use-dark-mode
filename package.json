@@ -60,7 +60,7 @@
     "@babel/core": "7.17.9",
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
-    "@wkovacs64/prettier-config": "3.0.1",
+    "@wkovacs64/prettier-config": "3.0.2",
     "babel-preset-gatsby-package": "2.13.0",
     "commitizen": "4.2.4",
     "cross-env": "7.0.3",

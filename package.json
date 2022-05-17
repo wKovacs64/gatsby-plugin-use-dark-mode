@@ -68,7 +68,7 @@
     "del-cli": "4.0.1",
     "eslint": "8.15.0",
     "eslint-plugin-wkovacs64": "13.13.0",
-    "gatsby": "4.14.0",
+    "gatsby": "4.14.1",
     "gatsby-plugin-utils": "3.8.0",
     "husky": "8.0.1",
     "lint-staged": "12.4.1",

@@ -14,7 +14,8 @@ jobs:
     steps:
       - checkout
       - node/install-packages
-      - run: npm run validate
+      - run: npm run lint
+      - run: npm run build
       - run: npm run test
       - persist_to_workspace:
           root: ~/

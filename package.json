@@ -64,7 +64,7 @@
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "5.0.0",
-    "eslint": "8.23.1",
+    "eslint": "8.24.0",
     "eslint-plugin-wkovacs64": "13.16.0",
     "gatsby": "4.23.1",
     "gatsby-plugin-utils": "3.17.1",

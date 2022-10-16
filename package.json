@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-use-dark-mode",
-  "version": "0.0.0-semantically-released",
+  "version": "1.5.0",
   "description": "Gatsby plugin to prevent a flash of default styles when using the use-dark-mode hook",
   "keywords": [
     "gatsby",
@@ -30,6 +30,9 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src --out-dir .",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
     "clean": "del-cli gatsby-node.js gatsby-ssr.js theme-hydration-script-tag.js",
     "format": "prettier --cache --write .",
     "lint": "eslint .",
@@ -39,11 +42,6 @@
     "prepublishOnly": "run-p --silent lint build",
     "test": "vitest run",
     "test:watch": "vitest watch"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "private": false,
   "publishConfig": {
@@ -56,13 +54,11 @@
   "devDependencies": {
     "@babel/cli": "7.19.3",
     "@babel/core": "7.19.3",
-    "@commitlint/cli": "17.1.2",
-    "@commitlint/config-conventional": "17.1.0",
+    "@changesets/changelog-github": "0.4.7",
+    "@changesets/cli": "2.25.0",
     "@wkovacs64/prettier-config": "3.0.2",
     "babel-preset-gatsby-package": "2.24.0",
-    "commitizen": "4.2.5",
     "cross-env": "7.0.3",
-    "cz-conventional-changelog": "3.3.0",
     "del-cli": "5.0.0",
     "eslint": "8.25.0",
     "eslint-plugin-wkovacs64": "13.16.0",
@@ -74,7 +70,6 @@
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "semantic-release": "19.0.5",
     "vitest": "0.23.4"
   },
   "peerDependencies": {

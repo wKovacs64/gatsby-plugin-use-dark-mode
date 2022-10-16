@@ -1,8 +1,6 @@
 # [gatsby-plugin-use-dark-mode][home]
 
-[![npm version][npm-image]][npm-url]
-[![Build Status][ci-image]][ci-url]
-[![semantic-release][semantic-release-image]][semantic-release-url]
+[![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 
 A [Gatsby][gatsby] plugin to prevent a flash of default styles when using the
 [`use-dark-mode`][udm] hook if the user is not using the default theme.
@@ -71,9 +69,6 @@ you are using the defaults (`document.body` and `localStorage`).
   https://img.shields.io/github/workflow/status/wKovacs64/gatsby-plugin-use-dark-mode/%F0%9F%A4%96%20CI/main?logo=github&style=flat-square
 [ci-url]:
   https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/actions?query=workflow%3Aci
-[semantic-release-image]:
-  https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[semantic-release-url]: https://github.com/semantic-release/semantic-release
 [gatsby]: https://www.gatsbyjs.org
 [udm]: https://github.com/donavon/use-dark-mode#readme
 [udm-noflash]: https://github.com/donavon/use-dark-mode#that-flash

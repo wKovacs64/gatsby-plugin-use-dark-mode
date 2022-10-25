@@ -30,7 +30,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src --extensions \".ts,.tsx\" --out-dir .",
     "changeset": "changeset",
-    "changeset:version": "changeset version",
+    "changeset:version": "changeset version && npm install --package-lock-only",
     "changeset:publish": "changeset publish",
     "clean": "del-cli gatsby-node.js gatsby-ssr.js",
     "format": "prettier --cache --write .",

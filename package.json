@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-use-dark-mode",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Gatsby plugin to prevent a flash of default styles when using the use-dark-mode hook",
   "keywords": [
     "gatsby",
@@ -14,7 +14,11 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "files": ["index.js", "gatsby-node.js", "gatsby-ssr.js"],
+  "files": [
+    "index.js",
+    "gatsby-node.js",
+    "gatsby-ssr.js"
+  ],
   "homepage": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode#readme",
   "repository": {
     "type": "git",

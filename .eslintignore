@@ -1,5 +1,4 @@
 gatsby-node.js
 gatsby-ssr.js
-theme-hydration-script-tag.js
 !__tests__/**
 !src/**

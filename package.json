@@ -14,12 +14,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "gatsby-node.js",
-    "gatsby-ssr.js",
-    "theme-hydration-script-tag.js"
-  ],
+  "files": ["index.js", "gatsby-node.js", "gatsby-ssr.js"],
   "homepage": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode#readme",
   "repository": {
     "type": "git",
@@ -29,11 +24,11 @@
     "url": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/issues"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production babel src --out-dir .",
+    "build": "cross-env NODE_ENV=production babel src --extensions \".ts,.tsx\" --out-dir .",
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish",
-    "clean": "del-cli gatsby-node.js gatsby-ssr.js theme-hydration-script-tag.js",
+    "clean": "del-cli gatsby-node.js gatsby-ssr.js",
     "format": "prettier --cache --write .",
     "lint": "eslint .",
     "husky:install": "husky install",
@@ -48,8 +43,7 @@
     "access": "public"
   },
   "dependencies": {
-    "prop-types": "^15.8.1",
-    "terser": "^4.0.0"
+    "esbuild": "~0.15.12"
   },
   "devDependencies": {
     "@babel/cli": "7.19.3",

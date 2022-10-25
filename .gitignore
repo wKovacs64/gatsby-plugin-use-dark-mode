@@ -165,6 +165,5 @@ yarn.lock
 # build output
 gatsby-node.js
 gatsby-ssr.js
-theme-hydration-script-tag.js
 !__tests__/**
 !src/**

@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.0
+
+### Major Changes
+
+- [#134](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/pull/134) [`7e1887f`](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/commit/7e1887f7b83b6078ce40d987b0cb2076bdec205b) Thanks [@renovate](https://github.com/apps/renovate)! - Add support for Gatsby v5 while removing support for Gatsby v2, v3, and React v16. If for some reason you are constrained to one of these old versions of Gatsby or React, please remain on v1 of this plugin.
+
 ## 1.6.1
 
 ### Patch Changes

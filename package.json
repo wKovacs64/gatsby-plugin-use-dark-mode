@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-use-dark-mode",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "description": "Gatsby plugin to prevent a flash of default styles when using the use-dark-mode hook",
   "keywords": [
     "gatsby",

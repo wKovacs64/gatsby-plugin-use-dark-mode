@@ -28,7 +28,7 @@
     "url": "https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/issues"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production babel src --extensions \".ts,.tsx\" --out-dir .",
+    "build": "cross-env NODE_ENV=production babel src --extensions \".ts,.tsx\" --ignore \"**/__tests__/**\" --out-dir .",
     "changeset": "changeset",
     "changeset:version": "changeset version && npm install --package-lock-only",
     "changeset:publish": "changeset publish",

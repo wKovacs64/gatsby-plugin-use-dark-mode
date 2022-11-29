@@ -1,9 +1,16 @@
 import esbuild from 'esbuild';
 import type { GatsbyNode } from 'gatsby';
 
-export const pluginOptionsSchema: GatsbyNode['pluginOptionsSchema'] = ({
-  Joi,
-}) => {
+interface UseDarkModePluginOptions {
+  classNameDark: string;
+  classNameLight: string;
+  storageKey: string;
+  minify: boolean;
+}
+
+export const pluginOptionsSchema: NonNullable<
+  GatsbyNode['pluginOptionsSchema']
+> = ({ Joi }) => {
   return Joi.object({
     classNameDark: Joi.string()
       .default('dark-mode')
@@ -24,7 +31,13 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = (
   { actions, plugins },
   pluginOptions,
 ) => {
-  const { classNameDark, classNameLight, storageKey, minify } = pluginOptions;
+  const typedOpts: UseDarkModePluginOptions = {
+    classNameDark: String(pluginOptions.classNameDark),
+    classNameLight: String(pluginOptions.classNameLight),
+    storageKey: String(pluginOptions.storageKey),
+    minify: Boolean(pluginOptions.minify),
+  };
+  const { classNameDark, classNameLight, storageKey, minify } = typedOpts;
 
   const noFlashScript = generateNoFlashScript({
     classNameDark,
@@ -58,7 +71,11 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = (
 
 // Adapted from:
 // https://github.com/donavon/use-dark-mode/blob/develop/noflash.js.txt
-function generateNoFlashScript({ classNameDark, classNameLight, storageKey }) {
+function generateNoFlashScript({
+  classNameDark,
+  classNameLight,
+  storageKey,
+}: Omit<UseDarkModePluginOptions, 'minify'>) {
   return `
     (function(classNameDark, classNameLight, storageKey) {
       function setClassOnDocumentBody(darkMode) {

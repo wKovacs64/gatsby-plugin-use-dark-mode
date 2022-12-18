@@ -51,7 +51,7 @@
   "devDependencies": {
     "@babel/cli": "7.19.3",
     "@babel/core": "7.20.5",
-    "@changesets/changelog-github": "0.4.7",
+    "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.25.2",
     "@wkovacs64/prettier-config": "3.0.3",
     "babel-preset-gatsby-package": "3.3.0",

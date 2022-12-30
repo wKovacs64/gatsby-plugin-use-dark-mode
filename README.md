@@ -66,7 +66,7 @@ you are using the defaults (`document.body` and `localStorage`).
   https://img.shields.io/npm/v/gatsby-plugin-use-dark-mode.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/gatsby-plugin-use-dark-mode
 [ci-image]:
-  https://img.shields.io/github/workflow/status/wKovacs64/gatsby-plugin-use-dark-mode/%F0%9F%A4%96%20CI/main?logo=github&style=flat-square
+  https://img.shields.io/github/actions/workflow/status/wKovacs64/gatsby-plugin-use-dark-mode/ci.yml?logo=github&style=flat-square
 [ci-url]:
   https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/actions?query=workflow%3Aci
 [gatsby]: https://www.gatsbyjs.org

@@ -86,19 +86,16 @@ function generateNoFlashScript({
       var preferDarkQuery = '(prefers-color-scheme: dark)';
       var mql = window.matchMedia(preferDarkQuery);
       var supportsColorSchemeQuery = mql.media === preferDarkQuery;
-      var localStorageTheme = null;
+      var localStorageValue = null;
       try {
-        localStorageTheme = localStorage.getItem(storageKey);
+        localStorageValue = JSON.parse(localStorage.getItem(storageKey));
       } catch (err) {}
-      var localStorageExists = localStorageTheme !== null;
-      if (localStorageExists) {
-        localStorageTheme = JSON.parse(localStorageTheme);
-      }
+      var isLocalStorageValueValid = localStorageValue === true || localStorageValue === false;
 
       // Determine the source of truth
-      if (localStorageExists) {
+      if (isLocalStorageValueValid) {
         // source of truth from localStorage
-        setClassOnDocumentBody(localStorageTheme);
+        setClassOnDocumentBody(localStorageValue);
       } else if (supportsColorSchemeQuery) {
         // source of truth from system
         setClassOnDocumentBody(mql.matches);

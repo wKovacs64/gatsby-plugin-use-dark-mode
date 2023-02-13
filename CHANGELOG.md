@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.1
+
+### Patch Changes
+
+- [#146](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/pull/146) [`a6b609d`](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/commit/a6b609ddb4016522a9f6a9fca73d4463fad46f32) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Ignore unexpected values in localStorage.
+
 ## 2.0.0
 
 ### Major Changes

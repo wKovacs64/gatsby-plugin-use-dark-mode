@@ -10,7 +10,7 @@ Specifically, this plugin handles the injection of the
 ## Install
 
 ```sh
-yarn add gatsby-plugin-use-dark-mode use-dark-mode
+npm install gatsby-plugin-use-dark-mode use-dark-mode
 ```
 
 ## Usage

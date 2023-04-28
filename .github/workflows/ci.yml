@@ -2,12 +2,12 @@ name: 🤖 CI
 
 on: [push]
 
-env:
-  CI: true
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+env:
+  CI: true
 
 jobs:
   prettier:

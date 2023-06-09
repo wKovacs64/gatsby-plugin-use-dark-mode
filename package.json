@@ -46,7 +46,7 @@
     "access": "public"
   },
   "dependencies": {
-    "esbuild": "~0.17.0"
+    "esbuild": "~0.18.0"
   },
   "devDependencies": {
     "@babel/cli": "7.22.5",

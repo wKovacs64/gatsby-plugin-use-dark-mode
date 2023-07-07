@@ -39,7 +39,8 @@
     "prepare": "npm run --silent build",
     "prepublishOnly": "run-p --silent lint build",
     "test": "vitest run",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "typecheck": "tsc --noEmit"
   },
   "private": false,
   "publishConfig": {

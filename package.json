@@ -58,7 +58,7 @@
     "babel-preset-gatsby-package": "3.12.0",
     "cross-env": "7.0.3",
     "del-cli": "5.1.0",
-    "eslint": "8.51.0",
+    "eslint": "8.52.0",
     "eslint-plugin-wkovacs64": "15.1.0",
     "gatsby": "5.12.8",
     "gatsby-plugin-utils": "4.12.2",

@@ -37,7 +37,7 @@ describe('plugin options schema', () => {
     expect(hasWarnings).toBe(true);
     expect(warnings).toMatchInlineSnapshot(`
       [
-        "\\"tinyOrPickle\\" is not allowed",
+        ""tinyOrPickle" is not allowed",
       ]
     `);
   });
@@ -58,10 +58,10 @@ describe('plugin options schema', () => {
     expect(isValid).toBe(false);
     expect(errors).toMatchInlineSnapshot(`
       [
-        "\\"classNameDark\\" must be a string",
-        "\\"classNameLight\\" must be a string",
-        "\\"storageKey\\" must be a string",
-        "\\"minify\\" must be a boolean",
+        ""classNameDark" must be a string",
+        ""classNameLight" must be a string",
+        ""storageKey" must be a string",
+        ""minify" must be a boolean",
       ]
     `);
   });

@@ -59,7 +59,7 @@
     "cross-env": "7.0.3",
     "del-cli": "5.1.0",
     "eslint": "8.56.0",
-    "eslint-plugin-wkovacs64": "15.1.0",
+    "eslint-plugin-wkovacs64": "16.0.0",
     "gatsby": "5.13.3",
     "gatsby-plugin-utils": "4.13.1",
     "npm-run-all2": "6.1.2",

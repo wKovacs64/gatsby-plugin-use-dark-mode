@@ -62,7 +62,7 @@
     "eslint-plugin-wkovacs64": "16.2.0",
     "gatsby": "5.13.5",
     "gatsby-plugin-utils": "4.13.1",
-    "npm-run-all2": "6.1.2",
+    "npm-run-all2": "6.2.0",
     "prettier": "3.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",

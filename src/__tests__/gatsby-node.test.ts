@@ -10,10 +10,7 @@ describe('plugin options schema', () => {
       minify: false,
     };
 
-    const { isValid, errors } = await testPluginOptionsSchema(
-      pluginOptionsSchema,
-      options,
-    );
+    const { isValid, errors } = await testPluginOptionsSchema(pluginOptionsSchema, options);
 
     expect(isValid).toBe(true);
     expect(errors).toEqual([]);
@@ -50,10 +47,7 @@ describe('plugin options schema', () => {
       minify: 4,
     };
 
-    const { isValid, errors } = await testPluginOptionsSchema(
-      pluginOptionsSchema,
-      options,
-    );
+    const { isValid, errors } = await testPluginOptionsSchema(pluginOptionsSchema, options);
 
     expect(isValid).toBe(false);
     expect(errors).toMatchInlineSnapshot(`

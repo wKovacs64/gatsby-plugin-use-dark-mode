@@ -8,9 +8,7 @@ interface UseDarkModePluginOptions {
   minify: boolean;
 }
 
-export const pluginOptionsSchema: NonNullable<
-  GatsbyNode['pluginOptionsSchema']
-> = ({ Joi }) => {
+export const pluginOptionsSchema: NonNullable<GatsbyNode['pluginOptionsSchema']> = ({ Joi }) => {
   return Joi.object({
     classNameDark: Joi.string()
       .default('dark-mode')
@@ -21,9 +19,7 @@ export const pluginOptionsSchema: NonNullable<
     storageKey: Joi.string()
       .default('darkMode')
       .description('localStorage key used to persist mode'),
-    minify: Joi.boolean()
-      .default(true)
-      .description('toggle minification of the injected script'),
+    minify: Joi.boolean().default(true).description('toggle minification of the injected script'),
   });
 };
 

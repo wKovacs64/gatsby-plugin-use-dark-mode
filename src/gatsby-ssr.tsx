@@ -1,9 +1,7 @@
 import * as React from 'react';
 import type { GatsbySSR } from 'gatsby';
 
-export const onRenderBody: GatsbySSR['onRenderBody'] = ({
-  setPreBodyComponents,
-}) => {
+export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setPreBodyComponents }) => {
   setPreBodyComponents([
     <script
       key="gatsby-plugin-use-dark-mode"

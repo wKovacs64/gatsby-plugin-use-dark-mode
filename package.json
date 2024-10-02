@@ -51,8 +51,8 @@
     "esbuild": "~0.24.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.25.6",
-    "@babel/core": "7.25.2",
+    "@babel/cli": "7.25.7",
+    "@babel/core": "7.25.7",
     "@changesets/changelog-github": "0.5.0",
     "@changesets/cli": "2.27.8",
     "@wkovacs64/eslint-config": "7.2.5",

@@ -60,7 +60,7 @@
     "babel-preset-gatsby-package": "3.14.0",
     "cross-env": "7.0.3",
     "del-cli": "6.0.0",
-    "eslint": "9.15.0",
+    "eslint": "9.16.0",
     "gatsby": "5.14.0",
     "gatsby-plugin-utils": "4.14.0",
     "npm-run-all2": "7.0.1",

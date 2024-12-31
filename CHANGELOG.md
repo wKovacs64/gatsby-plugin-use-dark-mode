@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0
+
+### Minor Changes
+
+- [#188](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/pull/188) [`3da7eb6`](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/commit/3da7eb678a753c0965aa8cd2b54904ce38351b35) Thanks [@renovate](https://github.com/apps/renovate)! - Add support for React 19.
+
 ## 2.0.1
 
 ### Patch Changes

@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.27.2",
-    "@babel/core": "7.27.4",
+    "@babel/core": "7.27.7",
     "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.29.5",
     "@wkovacs64/eslint-config": "7.8.0",

@@ -59,7 +59,7 @@
     "@wkovacs64/prettier-config": "4.2.1",
     "babel-preset-gatsby-package": "3.15.0",
     "cross-env": "10.0.0",
-    "del-cli": "6.0.0",
+    "del-cli": "7.0.0",
     "eslint": "9.36.0",
     "gatsby": "5.15.0",
     "gatsby-plugin-utils": "4.15.0",

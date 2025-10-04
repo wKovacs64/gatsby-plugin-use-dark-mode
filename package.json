@@ -64,8 +64,8 @@
     "gatsby-plugin-utils": "4.15.0",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "typescript": "5.9.3",
     "vitest": "3.2.4"
   },

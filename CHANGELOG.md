@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.1
+
+### Patch Changes
+
+- [`c07938b`](https://github.com/wKovacs64/gatsby-plugin-use-dark-mode/commit/c07938b4e25e58bfb158e1afec6a698e6329edf1) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Add deprecation notice to `README.md`.
+
 ## 2.1.0
 
 ### Minor Changes

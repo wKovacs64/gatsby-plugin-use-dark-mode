@@ -1,5 +1,8 @@
 # [gatsby-plugin-use-dark-mode][home]
 
+> [!WARNING]
+> **This project is no longer maintained and has been archived.** The upstream [`use-dark-mode`][udm] package is no longer maintained, and the author no longer uses Gatsby. If you are starting a new project, please consider alternative solutions for dark mode implementation.
+
 [![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 
 A [Gatsby][gatsby] plugin to prevent a flash of default styles when using the [`use-dark-mode`][udm]

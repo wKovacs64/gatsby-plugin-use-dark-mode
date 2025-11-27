@@ -1,5 +1,10 @@
 # [gatsby-plugin-use-dark-mode][home]
 
+<!-- prettier-ignore -->
+> [!WARNING]
+> **This project is no longer maintained and has been archived.** It probably still works, but if
+> you are starting a new Gatsby project, please consider alternative solutions for implementing dark mode.
+
 [![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 
 A [Gatsby][gatsby] plugin to prevent a flash of default styles when using the [`use-dark-mode`][udm]
